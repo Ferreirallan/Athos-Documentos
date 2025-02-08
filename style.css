@@ -31,6 +31,7 @@ section{
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    background-color: #fff;
 }
 .header section{
     display: flex;
@@ -43,7 +44,7 @@ section{
  .navbar a{
     margin: 0 2rem;
     font-size: 1.8rem;
-    color: #fff;
+    color: #000;
 }
 
 .navbar a:hover{
@@ -84,13 +85,27 @@ section{
     max-width: 60rem;
 }
 .content h3{
-    color: #fff;
-    font-size: 5rem;
+    color: #000;
+    font-size: 4.7rem;
 }
 .content p{
-    color: #fff;
+    color: #000;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8; /*altura da linha*/
     padding: 1rem 0;
+}
+
+.tittle{
+    font-size: 4rem;
+    color: orangered;
+    text-align: center;
+}
+
+.about{
+
+}
+
+.cont-img{
+    width: 10px;
 }
